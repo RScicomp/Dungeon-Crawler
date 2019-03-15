@@ -1,0 +1,56 @@
+
+<html>
+	<head>
+                <title>Webpage</title>
+        </head>
+        <body>
+        <BODY BGCOLOR="AQUA">
+	<br>
+	<!--Make background aqua-->
+	</br>
+	<!--Display Picture-->
+        <center><img src="https://media.giphy.com/media/P6M768gughnsA/giphy.gif" width="500" height="400"></center>
+		
+	<!--submit forms-->
+	<center><form action="http://www.cs.mcgill.ca/~hnguye124/cgi-bin/transporter.py" method="post">
+        	<input type="hidden" name="inventory" value="1,0">
+		<input type="hidden" name ="URL" value="http://www.cs.mcgill.ca/~rgao11/cgi-bin/room.cgi">
+		<input type="submit" value="NORTH">
+	
+	</form>
+		
+	<form action="http://cs.mcgill.ca/~jmanal2/cgi-bin/transporter.py" method="post" style= "display: inline">
+		<input type="hidden" name="inventory" value="1,0">
+		<input type="hidden" name ="URL" value="http://www.cs.mcgill.ca/~rgao11/cgi-bin/">
+               	<input type="submit" value=" WEST ">
+	</form>
+	<!--input box--> 
+        <form action="cgi-bin/room.cgi" method="post" style="display: inline">
+                <input type="text" name="cmd">
+                <input type="hidden" name="inventory" value="1,0">
+                <input type="submit">
+        </form>
+       
+
+	
+	<form action="http://cs.mcgill.ca/~sli144/cgi-bin/transporter.py" method="post" style= "display: inline">
+                <input type="hidden" name="inventory" value="1,0">
+                <input type="hidden" name ="URL" value="http://www.cs.mcgill.ca/~rgao11/cgi-bin/room.cgi">
+                <input type="submit" value=" EAST ">
+        </form>	
+
+
+	<form action="http://cs.mcgill.ca/~lerbay/cgi-bin/transporter.py" method="post">
+                <input type="hidden" name="inventory" value="1,0">
+                <input type="hidden" name ="URL" value="http://cs.mcgill.ca/~rgao11/cgi-bin/room.cgi">
+                <input type="submit" value="SOUTH">
+        </form></center>
+
+	<!--display Gold and Manna-->	
+	<center>GOLD: 0</center>
+	<center>MANNA: 1</center>        	
+		
+        </body>
+
+
+</html>
